@@ -1,0 +1,368 @@
+@import url('https://fonts.googleapis.com/css2?family=Dela+Gothic+One&family=Inter:wght@400;500;600&display=swap');
+
+:root {
+    --bg1: #1f222c;
+    --bg2: #1B1F34;
+    --body: #746b45;
+    --brand: #FFAB76;
+    --white: #fff;
+}
+body{
+    font-family: "inter",'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background:  url(../img/magic6.jpg);
+    background-size: cover;
+}
+p,label,li,td,th,B,tr{
+    color: white;
+}
+c{
+    color: var(--brand); 
+}
+h1,h2,h3,h4,h5,h6{
+    font-family: "Dela Gothic One" , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: white;
+}
+a{
+    color: var(--body);
+    text-decoration: none;
+}
+a:hover{
+    color:var(--brand)
+}
+.link-more{
+    display: inline-flex66;
+    align-items: center;
+    font-size: 13px;
+    font-weight: 600;
+    text-transform: uppercase;
+    left: 1px;
+    
+}
+.link-more .icon{
+    transition: all 0.4s ease;
+}
+.link-more:hover .icon{
+    transform: translateX(8px);
+}
+img{
+    width: 100%;
+}
+
+section{
+    padding-top: 160px;
+    padding-bottom: 160px;
+}
+/* INTRO */
+.intro{
+    margin-bottom: 60px;
+
+}
+
+.intro h1{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+.intro h6{
+    color: var(--brand);
+}
+.intr p{
+    max-width: 500px;
+    margin: auto;
+
+}
+/* NAVBAR */
+.navbar{
+    background:transparent;
+
+
+}
+.navbar-brand{
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-size: 32px;
+    
+
+}
+
+
+/* HERO */
+#hero{
+    background: linear-gradient(to right,#1B1F34, rgba(27, 31,52,0.2)) , url(../img/magic6.jpg); ;
+    min-height: 100vh;
+    background-position: center;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+}
+#hero h1{
+    color: white;
+}
+
+*{
+    margin: 0px;
+    padding:0px;
+    box-sizing: border-box;
+}
+  .aston2{
+    border: 8px solid var(--brand);
+    border-radius: 50%;
+    padding: 1px;
+    height: 150px;
+    width: 150px;
+  }
+
+  .aston3{
+    padding: 1px;
+    height: 150px;
+    width: 150px;
+  }
+
+
+    
+/* btn */
+.btn{
+    padding: 16px 36px;
+    font-family: "Dela Gothic One" , 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif; 
+    transition: all 0.4s ease;
+    border-radius: 0;
+    
+}
+.btn-brand{
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);   
+}
+
+.btn-outline-brand{
+    background-color: transparent;
+    color: var(--brand);
+    border-color: var(--brand);
+}
+.btn-outline:hover{
+    background-color: var(--brand);
+}
+/* ABOUT */
+#about{
+    position: relative;
+
+}
+#about::after{
+    content: "";
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: -1;
+}    
+
+#about h6{
+    color: var(--brand);
+}
+#about h1{
+    margin-top: 16px;
+    margin-bottom: 24px;
+    color: white;
+
+}
+#checkoutbutton.php th{
+    margin-top: 16px;
+    margin-bottom: 24px;
+
+}
+
+/* PRICE*/
+#pricing {
+    position: relative;
+    
+}
+#pricing::after{
+    content: "";
+    width: 25%;
+    height: 100%;
+    position: absolute;
+    top: 0;
+    left:0;
+    z-index: -1;     
+}
+#pricing h6{
+    color:var(--brand)
+}
+#pricing h1{
+    margin-top: 16px;
+    margin-bottom: 24px;
+}
+
+
+/*SERVICES*/
+#services{
+    position: relative;
+}
+#services .service .content{
+    padding: 32px;
+}
+/* COUNTER */
+#counter{
+    background-position: center;
+}
+#counter h1{
+    color: var(--brand);
+}
+ /*BOOKING */
+ #booking{
+    background-position: center;
+ }
+ #booking form {
+    background-color: var(--bg1);
+    padding: 32px;
+ }
+ #booking form .form-control{
+    background-color: var(--bg2);
+    border-radius: 0%;
+    margin-top: 16px;
+    border-color: var(--bg2);
+    border: 2px solid var(--bg2);
+    color: var(--wheat);
+
+ }
+
+ #booking form input{
+    height: 50px;
+ }
+ #booking form  .form-control:focus{
+    box-shadow: none;
+    border-left-color: var(--brand);
+ }
+ #phone{
+    display: block;
+ }
+ input,
+ #phone{
+    margin: .4rem 0;
+ }
+ /* FOOTER */
+ footer{
+    padding-top: 160px;
+
+ }
+ footer .social-links{
+    display: flex;
+ }
+ footer .social-links a{
+    margin-right:5px;
+ }
+ .footer-top{
+    padding-bottom: 30px;
+ }
+ .footer-bottom{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid var(--bg2)
+ }
+
+ /* BLOG POST */
+ #blog{
+    position: relative;
+ }
+ .blog-post{
+    position: relative;
+    
+ }
+ .blog-post .date{
+    width: 100px;
+    height: 100px;
+    background-color: transparent;
+    text-align: center;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    top: 30px;
+    left: 30px;
+ }
+ .blog-post .day{
+    font-size: 32px;
+    line-height: 1;
+    font-family: "Dela Gothic One", 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    color: var(--white);
+ }
+ .blog-post .year{
+    color: var(--white);
+
+ }
+ *{
+    font-family: 'Poppins', sans-serif;
+    margin:0; padding:0;
+    box-sizing: border-box;
+    outline: none; border:none;
+    text-transform: capitalize;
+    transition: all .2s linear;
+  }
+  
+  .container2{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    padding:25px;
+    min-height: 100vh;
+    background: linear-gradient(90deg, #2ecc71 60%, #27ae60 40.1%);
+  }
+  
+  .container2 form{
+    padding:20px;
+    width:700px;
+    background: #fff;
+    box-shadow: 0 5px 10px rgba(0,0,0,.1);
+  }
+  
+  .container2 form .row{
+    display: flex;
+    flex-wrap: wrap;
+    gap:15px;
+  }
+  
+  .container2 form .row .col{
+    flex:1 1 250px;
+  }
+  
+  .container2 form .row .col .title{
+    font-size: 20px;
+    color:#333;
+    padding-bottom: 5px;
+    text-transform: uppercase;
+  }
+  
+  .container2 form .row .col .inputBox{
+    margin:15px 0;
+  }
+  
+  .container2 form .row .col .inputBox span{
+    margin-bottom: 10px;
+    display: block;
+  }
+  
+  .container2 form .row .col .inputBox input{
+    width: 100%;
+    border:1px solid #ccc;
+    padding:10px 15px;
+    font-size: 15px;
+    text-transform: none;
+  }
+  
+  .container2 form .row .col .inputBox input:focus{
+    border:1px solid #000;
+  }
+  
+  .container2 form .row .col .flex{
+    display: flex;
+    gap:15px;
+  }
+  
+  .container2 form .row .col .flex .inputBox{
+    margin-top: 5px;
+  }
+  
+  .container2 form .row .col .inputBox img{
+    height: 34px;
+    margin-top: 5px;
+    filter: drop-shadow(0 0 1px #000);
+  }
